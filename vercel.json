@@ -1,0 +1,86 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/blog.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/clogged-drain-unclog.html",
+      "destination": "/clogged-drain-unclog",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/drain-cleaning-alta-vista.html",
+      "destination": "/drain-cleaning-alta-vista",
+      "permanent": true
+    },
+    {
+      "source": "/drain-cleaning-gillespie-park.html",
+      "destination": "/drain-cleaning-gillespie-park",
+      "permanent": true
+    },
+    {
+      "source": "/drain-cleaning-gulf-gate.html",
+      "destination": "/drain-cleaning-gulf-gate",
+      "permanent": true
+    },
+    {
+      "source": "/drain-snaking-cabling.html",
+      "destination": "/drain-snaking-cabling",
+      "permanent": true
+    },
+    {
+      "source": "/emergency-drain-cleaning.html",
+      "destination": "/emergency-drain-cleaning",
+      "permanent": true
+    },
+    {
+      "source": "/hydro-jetting.html",
+      "destination": "/hydro-jetting",
+      "permanent": true
+    },
+    {
+      "source": "/kitchen-sink-drain-clog.html",
+      "destination": "/kitchen-sink-drain-clog",
+      "permanent": true
+    },
+    {
+      "source": "/locations.html",
+      "destination": "/locations",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy.html",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/services.html",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-is-my-kitchen-drain-clogged-in-sarasota.html",
+      "destination": "/blog/why-is-my-kitchen-drain-clogged-in-sarasota",
+      "permanent": true
+    }
+  ]
+}
