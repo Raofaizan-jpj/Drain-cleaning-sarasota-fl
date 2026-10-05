@@ -1,121 +1,236 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/index.html",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/about.html",
-      "destination": "/about",
-      "permanent": true
-    },
-    {
-      "source": "/blog.html",
-      "destination": "/blog",
-      "permanent": true
-    },
-    {
-      "source": "/blog/index.html",
-      "destination": "/blog",
-      "permanent": true
-    },
-    {
-      "source": "/clogged-drain-unclog.html",
-      "destination": "/clogged-drain-unclog",
-      "permanent": true
-    },
-    {
-      "source": "/contact.html",
-      "destination": "/contact",
-      "permanent": true
-    },
-    {
-      "source": "/drain-cleaning-alta-vista.html",
-      "destination": "/drain-cleaning-alta-vista",
-      "permanent": true
-    },
-    {
-      "source": "/drain-cleaning-gillespie-park.html",
-      "destination": "/drain-cleaning-gillespie-park",
-      "permanent": true
-    },
-    {
-      "source": "/drain-cleaning-gulf-gate.html",
-      "destination": "/drain-cleaning-gulf-gate",
-      "permanent": true
-    },
-    {
-      "source": "/drain-snaking-cabling.html",
-      "destination": "/drain-snaking-cabling",
-      "permanent": true
-    },
-    {
-      "source": "/emergency-drain-cleaning.html",
-      "destination": "/emergency-drain-cleaning",
-      "permanent": true
-    },
-    {
-      "source": "/hydro-jetting.html",
-      "destination": "/hydro-jetting",
-      "permanent": true
-    },
-    {
-      "source": "/kitchen-sink-drain-clog.html",
-      "destination": "/kitchen-sink-drain-clog",
-      "permanent": true
-    },
-    {
-      "source": "/locations.html",
-      "destination": "/locations",
-      "permanent": true
-    },
-    {
-      "source": "/privacy-policy.html",
-      "destination": "/privacy-policy",
-      "permanent": true
-    },
-    {
-      "source": "/services.html",
-      "destination": "/services",
-      "permanent": true
-    },
-    {
-      "source": "/blog/why-does-my-drain-keep-clogging.html",
-      "destination": "/blog/why-does-my-drain-keep-clogging",
-      "permanent": true
-    },
-    {
-      "source": "/blog/signs-of-a-main-sewer-line-clog.html",
-      "destination": "/blog/signs-of-a-main-sewer-line-clog",
-      "permanent": true
-    },
-    {
-      "source": "/blog/drain-snaking-vs-hydro-jetting.html",
-      "destination": "/blog/drain-snaking-vs-hydro-jetting",
-      "permanent": true
-    },
-    {
-      "source": "/blog/multiple-drains-backing-up.html",
-      "destination": "/blog/multiple-drains-backing-up",
-      "permanent": true
-    },
-    {
-      "source": "/blog/when-do-you-need-a-drain-camera-inspection.html",
-      "destination": "/blog/when-do-you-need-a-drain-camera-inspection",
-      "permanent": true
-    },
-    {
-      "source": "/blog/how-to-prevent-clogged-drains.html",
-      "destination": "/blog/how-to-prevent-clogged-drains",
-      "permanent": true
-    },
-    {
-      "source": "/blog/why-is-my-kitchen-drain-clogged-in-sarasota.html",
-      "destination": "/blog/why-is-my-kitchen-drain-clogged-in-sarasota",
-      "permanent": true
-    }
-  ]
+    "cleanUrls":  true,
+    "trailingSlash":  false,
+    "redirects":  [
+                      {
+                          "destination":  "/",
+                          "permanent":  true,
+                          "source":  "/index.html"
+                      },
+                      {
+                          "destination":  "/about",
+                          "permanent":  true,
+                          "source":  "/about.html"
+                      },
+                      {
+                          "destination":  "/blog",
+                          "permanent":  true,
+                          "source":  "/blog.html"
+                      },
+                      {
+                          "destination":  "/blog",
+                          "permanent":  true,
+                          "source":  "/blog/index.html"
+                      },
+                      {
+                          "destination":  "/clogged-drain-unclog",
+                          "permanent":  true,
+                          "source":  "/clogged-drain-unclog.html"
+                      },
+                      {
+                          "destination":  "/contact",
+                          "permanent":  true,
+                          "source":  "/contact.html"
+                      },
+                      {
+                          "destination":  "/drain-cleaning-alta-vista",
+                          "permanent":  true,
+                          "source":  "/drain-cleaning-alta-vista.html"
+                      },
+                      {
+                          "destination":  "/drain-cleaning-gillespie-park",
+                          "permanent":  true,
+                          "source":  "/drain-cleaning-gillespie-park.html"
+                      },
+                      {
+                          "destination":  "/drain-cleaning-gulf-gate",
+                          "permanent":  true,
+                          "source":  "/drain-cleaning-gulf-gate.html"
+                      },
+                      {
+                          "destination":  "/drain-snaking-cabling",
+                          "permanent":  true,
+                          "source":  "/drain-snaking-cabling.html"
+                      },
+                      {
+                          "destination":  "/emergency-drain-cleaning",
+                          "permanent":  true,
+                          "source":  "/emergency-drain-cleaning.html"
+                      },
+                      {
+                          "destination":  "/hydro-jetting",
+                          "permanent":  true,
+                          "source":  "/hydro-jetting.html"
+                      },
+                      {
+                          "destination":  "/kitchen-sink-drain-clog",
+                          "permanent":  true,
+                          "source":  "/kitchen-sink-drain-clog.html"
+                      },
+                      {
+                          "destination":  "/locations",
+                          "permanent":  true,
+                          "source":  "/locations.html"
+                      },
+                      {
+                          "destination":  "/privacy-policy",
+                          "permanent":  true,
+                          "source":  "/privacy-policy.html"
+                      },
+                      {
+                          "destination":  "/services",
+                          "permanent":  true,
+                          "source":  "/services.html"
+                      },
+                      {
+                          "destination":  "/blog/can-tree-roots-cause-sewer-problems",
+                          "permanent":  true,
+                          "source":  "/blog/can-tree-roots-cause-sewer-problems.html"
+                      },
+                      {
+                          "destination":  "/blog/chemical-drain-cleaners-what-homeowners-should-know",
+                          "permanent":  true,
+                          "source":  "/blog/chemical-drain-cleaners-what-homeowners-should-know.html"
+                      },
+                      {
+                          "destination":  "/blog/common-causes-of-kitchen-sink-drain-clogs",
+                          "permanent":  true,
+                          "source":  "/blog/common-causes-of-kitchen-sink-drain-clogs.html"
+                      },
+                      {
+                          "destination":  "/blog/drain-cleaning-vs-sewer-cleaning",
+                          "permanent":  true,
+                          "source":  "/blog/drain-cleaning-vs-sewer-cleaning.html"
+                      },
+                      {
+                          "destination":  "/blog/drain-snaking-vs-hydro-jetting",
+                          "permanent":  true,
+                          "source":  "/blog/drain-snaking-vs-hydro-jetting.html"
+                      },
+                      {
+                          "destination":  "/blog/how-drain-snaking-works",
+                          "permanent":  true,
+                          "source":  "/blog/how-drain-snaking-works.html"
+                      },
+                      {
+                          "destination":  "/blog/how-long-does-drain-cleaning-take",
+                          "permanent":  true,
+                          "source":  "/blog/how-long-does-drain-cleaning-take.html"
+                      },
+                      {
+                          "destination":  "/blog/how-much-does-drain-cleaning-cost",
+                          "permanent":  true,
+                          "source":  "/blog/how-much-does-drain-cleaning-cost.html"
+                      },
+                      {
+                          "destination":  "/blog/how-to-keep-your-drains-flowing-properly",
+                          "permanent":  true,
+                          "source":  "/blog/how-to-keep-your-drains-flowing-properly.html"
+                      },
+                      {
+                          "destination":  "/blog/how-to-prevent-bathroom-sink-clogs",
+                          "permanent":  true,
+                          "source":  "/blog/how-to-prevent-bathroom-sink-clogs.html"
+                      },
+                      {
+                          "destination":  "/blog/how-to-prevent-clogged-drains",
+                          "permanent":  true,
+                          "source":  "/blog/how-to-prevent-clogged-drains.html"
+                      },
+                      {
+                          "destination":  "/blog/how-to-prevent-kitchen-sink-clogs",
+                          "permanent":  true,
+                          "source":  "/blog/how-to-prevent-kitchen-sink-clogs.html"
+                      },
+                      {
+                          "destination":  "/blog/how-to-prevent-shower-and-tub-drain-clogs",
+                          "permanent":  true,
+                          "source":  "/blog/how-to-prevent-shower-and-tub-drain-clogs.html"
+                      },
+                      {
+                          "destination":  "/blog/hydro-jetting-vs-drain-snaking",
+                          "permanent":  true,
+                          "source":  "/blog/hydro-jetting-vs-drain-snaking.html"
+                      },
+                      {
+                          "destination":  "/blog/multiple-drains-backing-up",
+                          "permanent":  true,
+                          "source":  "/blog/multiple-drains-backing-up.html"
+                      },
+                      {
+                          "destination":  "/blog/signs-of-a-main-sewer-line-clog",
+                          "permanent":  true,
+                          "source":  "/blog/signs-of-a-main-sewer-line-clog.html"
+                      },
+                      {
+                          "destination":  "/blog/signs-of-a-main-sewer-line-problem",
+                          "permanent":  true,
+                          "source":  "/blog/signs-of-a-main-sewer-line-problem.html"
+                      },
+                      {
+                          "destination":  "/blog/signs-you-may-need-professional-drain-cleaning",
+                          "permanent":  true,
+                          "source":  "/blog/signs-you-may-need-professional-drain-cleaning.html"
+                      },
+                      {
+                          "destination":  "/blog/what-causes-recurring-drain-clogs",
+                          "permanent":  true,
+                          "source":  "/blog/what-causes-recurring-drain-clogs.html"
+                      },
+                      {
+                          "destination":  "/blog/what-causes-sewer-backups",
+                          "permanent":  true,
+                          "source":  "/blog/what-causes-sewer-backups.html"
+                      },
+                      {
+                          "destination":  "/blog/what-causes-slow-drains",
+                          "permanent":  true,
+                          "source":  "/blog/what-causes-slow-drains.html"
+                      },
+                      {
+                          "destination":  "/blog/what-happens-during-a-professional-drain-cleaning",
+                          "permanent":  true,
+                          "source":  "/blog/what-happens-during-a-professional-drain-cleaning.html"
+                      },
+                      {
+                          "destination":  "/blog/what-is-hydro-jetting",
+                          "permanent":  true,
+                          "source":  "/blog/what-is-hydro-jetting.html"
+                      },
+                      {
+                          "destination":  "/blog/what-should-you-do-during-a-sewer-backup",
+                          "permanent":  true,
+                          "source":  "/blog/what-should-you-do-during-a-sewer-backup.html"
+                      },
+                      {
+                          "destination":  "/blog/when-a-drain-cleaning-problem-may-require-pipe-repair",
+                          "permanent":  true,
+                          "source":  "/blog/when-a-drain-cleaning-problem-may-require-pipe-repair.html"
+                      },
+                      {
+                          "destination":  "/blog/when-do-you-need-a-drain-camera-inspection",
+                          "permanent":  true,
+                          "source":  "/blog/when-do-you-need-a-drain-camera-inspection.html"
+                      },
+                      {
+                          "destination":  "/blog/when-is-a-clogged-drain-an-emergency",
+                          "permanent":  true,
+                          "source":  "/blog/when-is-a-clogged-drain-an-emergency.html"
+                      },
+                      {
+                          "destination":  "/blog/why-does-my-drain-keep-clogging",
+                          "permanent":  true,
+                          "source":  "/blog/why-does-my-drain-keep-clogging.html"
+                      },
+                      {
+                          "destination":  "/blog/why-is-my-kitchen-drain-clogged-in-sarasota",
+                          "permanent":  true,
+                          "source":  "/blog/why-is-my-kitchen-drain-clogged-in-sarasota.html"
+                      },
+                      {
+                          "destination":  "/blog/why-multiple-drains-are-backing-up",
+                          "permanent":  true,
+                          "source":  "/blog/why-multiple-drains-are-backing-up.html"
+                      }
+                  ]
 }

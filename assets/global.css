@@ -347,9 +347,9 @@ h3 {
 
 .brand-logo {
   display: block;
-  height: 68px;
+  height: 64px;
   width: auto;
-  max-width: 290px;
+  max-width: 250px;
   object-fit: contain;
   image-rendering: -webkit-optimize-contrast;
   transition: transform 0.2s ease, opacity 0.2s ease;
@@ -891,9 +891,10 @@ h3 {
 
 .image-stack img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 4 / 3;
   border-radius: var(--radius);
   object-fit: cover;
+  display: block;
 }
 
 .experience-stamp {
@@ -2309,7 +2310,14 @@ h3 {
 }
 
 .brand-light {
+  display: inline-block;
   margin-bottom: 22px;
+}
+
+.brand-light .brand-logo {
+  height: 60px;
+  width: auto;
+  max-width: 250px;
 }
 
 .footer-brand > p,
@@ -2516,6 +2524,8 @@ h3 {
   .utility-inner { justify-content: center; }
   .utility-inner > div { display: none; }
   .main-nav { grid-template-columns: 1fr auto; }
+  .brand-logo { height: 50px; max-width: 200px; }
+  .brand-light .brand-logo { height: 50px; max-width: 200px; }
   .nav-call { display: none; }
   .nav-links { top: 102px; }
   .hero-layout { padding-top: 62px; padding-bottom: 62px; }
