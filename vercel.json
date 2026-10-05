@@ -18,6 +18,11 @@
       "permanent": true
     },
     {
+      "source": "/blog/index.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
       "source": "/clogged-drain-unclog.html",
       "destination": "/clogged-drain-unclog",
       "permanent": true
@@ -75,6 +80,36 @@
     {
       "source": "/services.html",
       "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/blog/why-does-my-drain-keep-clogging.html",
+      "destination": "/blog/why-does-my-drain-keep-clogging",
+      "permanent": true
+    },
+    {
+      "source": "/blog/signs-of-a-main-sewer-line-clog.html",
+      "destination": "/blog/signs-of-a-main-sewer-line-clog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/drain-snaking-vs-hydro-jetting.html",
+      "destination": "/blog/drain-snaking-vs-hydro-jetting",
+      "permanent": true
+    },
+    {
+      "source": "/blog/multiple-drains-backing-up.html",
+      "destination": "/blog/multiple-drains-backing-up",
+      "permanent": true
+    },
+    {
+      "source": "/blog/when-do-you-need-a-drain-camera-inspection.html",
+      "destination": "/blog/when-do-you-need-a-drain-camera-inspection",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-to-prevent-clogged-drains.html",
+      "destination": "/blog/how-to-prevent-clogged-drains",
       "permanent": true
     },
     {

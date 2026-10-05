@@ -1,31 +1,139 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog | Sarasota Drain Cleaning Pros</title>
-    <meta name="description" content="Practical guides and local tips for Drain cleaning in sarasota.">
+    <title>Drain Cleaning Tips & Guides for Sarasota Homeowners | Blog</title>
+    <meta name="description" content="Explore practical guides, troubleshooting checklists, and professional advice on clogged drains, sewer line problems, hydro jetting, and drain maintenance in Sarasota, FL.">
     <meta name="author" content="Sarasota Drain Cleaning Pros">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://draincleaningsarasotafl.com/blog">
     
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Blog | Sarasota Drain Cleaning Pros">
-    <meta property="og:description" content="Practical guides and local tips for Drain cleaning in sarasota.">
+    <meta property="og:title" content="Drain Cleaning Tips & Guides for Sarasota Homeowners">
+    <meta property="og:description" content="Practical guides and expert advice on clogged drains, sewer issues, hydro jetting, drain camera inspections, and preventative plumbing maintenance.">
+    <meta property="og:url" content="https://draincleaningsarasotafl.com/blog">
+    <meta property="og:image" content="https://draincleaningsarasotafl.com/assets/images/gen/drain-cleaning-hero.jpg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Blog | Sarasota Drain Cleaning Pros">
-    <meta name="twitter:description" content="Practical guides and local tips for Drain cleaning in sarasota.">
+    <meta name="twitter:title" content="Drain Cleaning Tips & Guides for Sarasota Homeowners">
+    <meta name="twitter:description" content="Practical guides and expert advice on clogged drains, sewer issues, hydro jetting, drain camera inspections, and preventative plumbing maintenance.">
+    <meta name="twitter:image" content="https://draincleaningsarasotafl.com/assets/images/gen/drain-cleaning-hero.jpg">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Drain Cleaning Tips & Guides for Sarasota Homeowners",
+      "description": "Practical educational guides and troubleshooting resources for drain and sewer maintenance in Sarasota, Florida.",
+      "url": "https://draincleaningsarasotafl.com/blog",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Sarasota Drain Cleaning Pros",
+        "url": "https://draincleaningsarasotafl.com/about",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://draincleaningsarasotafl.com/assets/images/logo.png"
+        }
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://draincleaningsarasotafl.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://draincleaningsarasotafl.com/blog"
+        }
+      ]
+    }
+    </script>
+
     <style>
-    .blog-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.75rem;}
-    .blog-card{display:flex;flex-direction:column;background:var(--white);border:1px solid var(--line);border-radius:calc(var(--radius) * 2);overflow:hidden;text-decoration:none;color:inherit;box-shadow:var(--shadow);transition:transform .25s ease;}
-    .blog-card:hover{transform:translateY(-4px);}
-    .blog-card-media{height:210px;background-size:cover;background-position:center;}
-    .blog-card-body{padding:1.6rem;}
-    .blog-card-tag{font-family:var(--font-mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);}
-    .blog-card h3{font-family:var(--font-serif);font-size:1.2rem;margin:.6rem 0 .7rem;color:var(--ink);}
-    .blog-card p{color:var(--muted);font-size:.93rem;margin:0 0 1rem;}
-    .blog-card-more{font-weight:600;color:var(--orange);}
-  </style>
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 2rem;
+    }
+    .blog-card {
+      display: flex;
+      flex-direction: column;
+      background: var(--white);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+      transition: transform .25s ease, box-shadow .25s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+    .blog-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+    }
+    .blog-card-media {
+      height: 200px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+    .blog-card-body {
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    .blog-card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.6rem;
+    }
+    .blog-card-tag {
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 700;
+      color: var(--orange);
+    }
+    .blog-card-date {
+      font-size: 0.8rem;
+      color: var(--muted, #767676);
+    }
+    .blog-card h3 {
+      font-size: 1.25rem;
+      line-height: 1.35;
+      margin: 0 0 0.75rem;
+      color: var(--ink);
+    }
+    .blog-card p {
+      color: var(--ink-soft);
+      font-size: 0.95rem;
+      line-height: 1.6;
+      margin: 0 0 1.25rem;
+      flex-grow: 1;
+    }
+    .blog-card-more {
+      font-weight: 600;
+      color: var(--orange);
+      font-size: 0.95rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+    .blog-card-more:hover {
+      text-decoration: underline;
+    }
+    </style>
     <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20viewBox=%270%200%2032%2032%27%3E%3Crect%20width=%2732%27%20height=%2732%27%20rx=%277%27%20fill=%27%23A9DF59%27/%3E%3Ctext%20x=%2716%27%20y=%2723%27%20font-family=%27Arial,sans-serif%27%20font-size=%2719%27%20font-weight=%27700%27%20fill=%27%23ffffff%27%20text-anchor=%27middle%27%3ES%3C/text%3E%3C/svg%3E" />
     <script>window.__RL_LEADS={siteId:"6abe4630a2c0fee51123c963",apiBase:"https://ranklocal.cc",turnstileSiteKey:""};</script>
     <link rel="preload" href="../assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin />
@@ -85,9 +193,7 @@
         <span class="nav-dd">
         <a href="../services">Services <span class="nav-dd-caret">&#9662;</span></a>
         <div class="nav-dd-panel">
-          <!-- RL-AUTO:nav-services START -->
-<a href="../emergency-drain-cleaning">Emergency Drain Cleaning</a><a href="../clogged-drain-unclog">Clogged Drain / Unclog</a><a href="../drain-snaking-cabling">Drain Snaking / Cabling</a><a href="../hydro-jetting">Hydro Jetting</a><a href="../kitchen-sink-drain-clog">Kitchen / Sink Drain Clog</a>
-<!-- RL-AUTO:nav-services END -->
+          <a href="../emergency-drain-cleaning">Emergency Drain Cleaning</a><a href="../clogged-drain-unclog">Clogged Drain / Unclog</a><a href="../drain-snaking-cabling">Drain Snaking / Cabling</a><a href="../hydro-jetting">Hydro Jetting</a><a href="../kitchen-sink-drain-clog">Kitchen / Sink Drain Clog</a>
           <a class="nav-dd-all" href="../services">All services &rarr;</a>
         </div>
       </span>
@@ -95,45 +201,147 @@
         <span class="nav-dd">
         <a href="../locations">Areas <span class="nav-dd-caret">&#9662;</span></a>
         <div class="nav-dd-panel">
-          <!-- RL-AUTO:nav-locations START --><a href="../drain-cleaning-gillespie-park">Gillespie Park</a><a href="../drain-cleaning-gulf-gate">Gulf Gate</a><a href="../drain-cleaning-alta-vista">Alta Vista</a><!-- RL-AUTO:nav-locations END -->
+          <a href="../drain-cleaning-gillespie-park">Gillespie Park</a><a href="../drain-cleaning-gulf-gate">Gulf Gate</a><a href="../drain-cleaning-alta-vista">Alta Vista</a>
           <a class="nav-dd-all" href="../locations">All service areas &rarr;</a>
         </div>
       </span>
-        <a href="../blog">Blog</a>
+        <a href="../blog" class="active">Blog</a>
         <a href="../contact">Contact</a>
       </div>
       <a class="nav-call" href="tel:9414549876"><span class="phone-icon">&#8599;</span><span>941 454 9876</span></a>
     </nav>
   </header>
 </div>
+
     <main>
-      
-    
-<div id="hero-container">
-  <section class="location-hero">
-    <div class="location-hero-image" style="background-image:url('../assets/images/gen/clogged-drain-unclog-8d9b0fc6.webp');" aria-hidden="true"></div>
-    <div class="location-hero-overlay"></div>
-    <div class="shell location-hero-inner">
-      <div class="location-hero-copy" data-sal="slide-up" data-sal-duration="650">
-        <h1>Drain cleaning insights for sarasota</h1>
-        <p>Practical guides and local tips for Drain cleaning in sarasota.</p>
-      </div>
-      
-    </div>
-  </section>
-</div>
-    <section class="section section-ivory">
-      <div class="shell"><div class="blog-grid">
-      <a class="blog-card" href="../blog/why-is-my-kitchen-drain-clogged-in-sarasota">
-        <div class="blog-card-media" style="background-image:url('../assets/images/gen/index-c8dfca69.webp');"></div>
-        <div class="blog-card-body">
-          <span class="blog-card-tag">Local Guides</span>
-          <h3>Why is my kitchen drain clogged in Sarasota?</h3>
-          <p>Learn why kitchen drains get clogged in Sarasota and how to resolve these issues effectively.</p>
-          <span class="blog-card-more">Read more &#8594;</span>
+    <div id="hero-container">
+      <section class="location-hero">
+        <div class="location-hero-image" style="background-image:url('../assets/images/gen/drain-cleaning-hero.jpg');" aria-hidden="true"></div>
+        <div class="location-hero-overlay"></div>
+        <div class="shell location-hero-inner">
+          <div class="location-hero-copy" data-sal="slide-up" data-sal-duration="650">
+            <h1>Drain Cleaning Tips &amp; Guides for Sarasota Homeowners</h1>
+            <p>Practical information and expert guidance on troubleshooting clogged drains, sewer line problems, hydro jetting technology, camera inspections, and preventative plumbing maintenance.</p>
+          </div>
         </div>
-      </a></div></div>
+      </section>
+    </div>
+
+    <!-- BREADCRUMBS -->
+    <div class="shell" style="max-width:1140px; margin-top:1.5rem; margin-bottom:0.5rem; font-size:0.875rem; color:var(--muted);">
+      <a href="/" style="color:var(--muted); text-decoration:none;">Home</a> &raquo; 
+      <span style="color:var(--ink);">Blog</span>
+    </div>
+
+    <section class="section section-ivory" style="padding-top:1.5rem; padding-bottom:4rem;">
+      <div class="shell" style="max-width:1140px;">
+        <div class="section-heading centered" style="margin-bottom:2.5rem;">
+          <span class="eyebrow" style="color:var(--orange); font-weight:700; text-transform:uppercase; font-size:0.85rem; letter-spacing:0.1em;">Educational Library</span>
+          <h2>Explore Drain &amp; Sewer Knowledge Guides</h2>
+          <p>Browse our homeowner resources to learn how to diagnose, clear, and prevent plumbing stoppages across your home.</p>
+        </div>
+
+        <div class="blog-grid">
+
+          <!-- ARTICLE 1 -->
+          <article class="blog-card">
+            <div class="blog-card-media" style="background-image:url('../assets/images/gen/service-clogged-drain.jpg');" role="img" aria-label="Why Does My Drain Keep Clogging?"></div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-card-tag">Troubleshooting</span>
+                <span class="blog-card-date">Oct 2, 2026</span>
+              </div>
+              <h3>Why Does My Drain Keep Clogging? 9 Common Causes and What to Do</h3>
+              <p>Explore 9 mechanical and structural reasons why drains repeatedly back up, why temporary plunging fails, and practical prevention tips.</p>
+              <a class="blog-card-more" href="../blog/why-does-my-drain-keep-clogging">Read Full Guide &rarr;</a>
+            </div>
+          </article>
+
+          <!-- ARTICLE 2 -->
+          <article class="blog-card">
+            <div class="blog-card-media" style="background-image:url('../assets/images/gen/service-sewer-cleaning.jpg');" role="img" aria-label="Signs of a Main Sewer Line Clog"></div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-card-tag">Diagnostics</span>
+                <span class="blog-card-date">Oct 2, 2026</span>
+              </div>
+              <h3>How to Tell If You Have a Main Sewer Line Clog</h3>
+              <p>Discover key warning signs of a mainline stoppage, immediate defensive steps for homeowners, and the difference between sewer cleaning and pipe repair.</p>
+              <a class="blog-card-more" href="../blog/signs-of-a-main-sewer-line-clog">Read Full Guide &rarr;</a>
+            </div>
+          </article>
+
+          <!-- ARTICLE 3 -->
+          <article class="blog-card">
+            <div class="blog-card-media" style="background-image:url('../assets/images/gen/service-hydro-jetting.jpg');" role="img" aria-label="Drain Snaking vs. Hydro Jetting"></div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-card-tag">Comparisons</span>
+                <span class="blog-card-date">Oct 2, 2026</span>
+              </div>
+              <h3>Drain Snaking vs. Hydro Jetting: Which One Does Your Drain Need?</h3>
+              <p>Compare mechanical steel cabling against high-pressure water jetting with our side-by-side breakdown of mechanisms, capabilities, and safety factors.</p>
+              <a class="blog-card-more" href="../blog/drain-snaking-vs-hydro-jetting">Read Full Guide &rarr;</a>
+            </div>
+          </article>
+
+          <!-- ARTICLE 4 -->
+          <article class="blog-card">
+            <div class="blog-card-media" style="background-image:url('../assets/images/gen/service-emergency-drain.jpg');" role="img" aria-label="Multiple Drains Backing Up"></div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-card-tag">Troubleshooting</span>
+                <span class="blog-card-date">Oct 2, 2026</span>
+              </div>
+              <h3>Why Are Multiple Drains Backing Up at the Same Time?</h3>
+              <p>Learn what causes several household fixtures to back up simultaneously, why repeated plunging won't solve the issue, and immediate safety actions.</p>
+              <a class="blog-card-more" href="../blog/multiple-drains-backing-up">Read Full Guide &rarr;</a>
+            </div>
+          </article>
+
+          <!-- ARTICLE 5 -->
+          <article class="blog-card">
+            <div class="blog-card-media" style="background-image:url('../assets/images/gen/service-camera-inspection.jpg');" role="img" aria-label="Drain Camera Inspection"></div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-card-tag">Diagnostics</span>
+                <span class="blog-card-date">Oct 2, 2026</span>
+              </div>
+              <h3>When Should You Get a Drain Camera Inspection?</h3>
+              <p>Understand how fiber-optic cameras inspect underground pipe walls, what defects they identify, and when scheduling an inspection is recommended.</p>
+              <a class="blog-card-more" href="../blog/when-do-you-need-a-drain-camera-inspection">Read Full Guide &rarr;</a>
+            </div>
+          </article>
+
+          <!-- ARTICLE 6 -->
+          <article class="blog-card">
+            <div class="blog-card-media" style="background-image:url('../assets/images/gen/service-kitchen-sink.jpg');" role="img" aria-label="Prevent Clogged Drains"></div>
+            <div class="blog-card-body">
+              <div class="blog-card-meta">
+                <span class="blog-card-tag">Prevention</span>
+                <span class="blog-card-date">Oct 2, 2026</span>
+              </div>
+              <h3>How to Prevent Clogged Drains in Your Sarasota Home</h3>
+              <p>Actionable daily practices, disposal guidelines, what never to flush, and a room-by-room maintenance checklist to keep your plumbing flowing smoothly.</p>
+              <a class="blog-card-more" href="../blog/how-to-prevent-clogged-drains">Read Full Guide &rarr;</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
     </section>
+
+    <div id="cta-container">
+      <section class="cta-band">
+        <div class="shell cta-inner">
+          <div>
+            <h2>Need Dependable Drain Service in Sarasota?</h2>
+          </div>
+          <p>From stubborn sink clogs to main sewer inspections, our experienced technicians provide careful diagnostics and honest solutions.</p>
+          <a class="button button-light" href="tel:9414549876">Call 941 454 9876 <span>&rarr;</span></a>
+        </div>
+      </section>
+    </div>
     </main>
     
 <div id="footer-container">
@@ -141,15 +349,13 @@
     <div class="shell footer-main">
       <div class="footer-brand">
         <a class="brand brand-light" href="/"><span class="brand-mark">S</span><span>Sarasota Drain Cleaning Pros<small>DRAIN CLEANING</small></span></a>
-        <p>Thoughtful drain cleaning service for local homes—delivered by people who care about the details.</p>
+        <p>Thoughtful drain cleaning service for local homes&mdash;delivered by people who care about the details.</p>
         <a class="footer-phone" href="tel:9414549876">941 454 9876</a>
-        <div class="social-links" data-social-links><a href="#" data-social="facebook" aria-label="Facebook"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"/></svg></a><a href="#" data-social="x" aria-label="X (Twitter)"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M10.488 14.651L15.25 21h7l-7.858-10.478L20.93 3h-2.65l-5.117 5.886L8.75 3h-7l7.51 10.015L2.32 21h2.65zM16.25 19L5.75 5h2l10.5 14z"/></svg></a><a href="#" data-social="instagram" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m8.65 3.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10m0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6"/></svg></a><a href="#" data-social="linkedin" aria-label="LinkedIn"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 1 0 0-3.37 1.69 1.69 0 0 0 0 3.37m1.39 9.94v-8.37H5.5v8.37z"/></svg></a><a href="#" data-social="youtube" aria-label="YouTube"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 0 0 2.12 2.14c1.88.5 9.38.5 9.38.5s7.5 0 9.38-.5a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.81M9.55 15.57V8.43L15.82 12z"/></svg></a><a href="#" data-social="tiktok" aria-label="TikTok"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.7 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.74-.1z"/></svg></a><a href="#" data-social="pinterest" aria-label="Pinterest"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.08 3.16 9.43 7.63 11.17-.11-.95-.2-2.4.04-3.44.22-.94 1.4-5.96 1.4-5.96s-.36-.72-.36-1.78c0-1.67.97-2.91 2.17-2.91 1.02 0 1.52.77 1.52 1.69 0 1.03-.66 2.57-1 4-.28 1.19.6 2.17 1.77 2.17 2.13 0 3.77-2.25 3.77-5.5 0-2.87-2.06-4.88-5.01-4.88-3.41 0-5.42 2.56-5.42 5.21 0 1.03.4 2.14.89 2.74.1.12.11.22.08.34l-.33 1.36c-.05.22-.17.27-.4.16-1.5-.7-2.44-2.89-2.44-4.65 0-3.79 2.75-7.27 7.93-7.27 4.16 0 7.4 2.97 7.4 6.93 0 4.14-2.61 7.47-6.23 7.47-1.22 0-2.36-.63-2.75-1.38l-.75 2.85c-.27 1.04-1 2.35-1.49 3.15C9.57 23.81 10.76 24 12 24c6.63 0 12-5.37 12-12S18.63 0 12 0"/></svg></a></div>
+        <div class="social-links" data-social-links><a href="../contact" data-social="facebook" aria-label="Facebook"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"/></svg></a><a href="../contact" data-social="x" aria-label="X (Twitter)"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M10.488 14.651L15.25 21h7l-7.858-10.478L20.93 3h-2.65l-5.117 5.886L8.75 3h-7l7.51 10.015L2.32 21h2.65zM16.25 19L5.75 5h2l10.5 14z"/></svg></a><a href="../contact" data-social="instagram" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m8.65 3.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10m0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6"/></svg></a><a href="../contact" data-social="linkedin" aria-label="LinkedIn"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 1 0 0-3.37 1.69 1.69 0 0 0 0 3.37m1.39 9.94v-8.37H5.5v8.37z"/></svg></a><a href="../contact" data-social="youtube" aria-label="YouTube"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.19a3.02 3.02 0 0 0-2.12-2.14C19.5 3.55 12 3.55s-7.5 0-9.38.5A3.02 3.02 0 0 0 .5 6.19C0 8.07 0 12 0 12s0 3.93.5 5.81a3.02 3.02 0 0 0 2.12-2.14C24 15.93 24 12 24 12s0-3.93-.5-5.81M9.55 15.57V8.43L15.82 12z"/></svg></a><a href="../contact" data-social="tiktok" aria-label="TikTok"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.7 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.74-.1z"/></svg></a><a href="../contact" data-social="pinterest" aria-label="Pinterest"><svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.08 3.16 9.43 7.63 11.17-.11-.95-.2-2.4.04-3.44.22-.94 1.4-5.96 1.4-5.96s-.36-.72-.36-1.78c0-1.67.97-2.91 2.17-2.91 1.02 0 1.52.77 1.52 1.69 0 1.03-.66 2.57-1 4-.28 1.19.6 2.17 1.77 2.17 2.13 0 3.77-2.25 3.77-5.5 0-2.87-2.06-4.88-5.01-4.88-3.41 0-5.42 2.56-5.42 5.21 0 1.03.4 2.14.89 2.74.1.12.11.22.08.34l-.33 1.36c-.05.22-.17.27-.4.16-1.5-.7-2.44-2.89-2.44-4.65 0-3.79 2.75-7.27 7.93-7.27 4.16 0 7.4 2.97 7.4 6.93 0 4.14-2.61 7.47-6.23 7.47-1.22 0-2.36-.63-2.75-1.38l-.75 2.85c-.27 1.04-1 2.35-1.49 3.15C9.57 23.81 10.76 24 12 24c6.63 0 12-5.37 12-12S18.63 0 12 0"/></svg></a></div>
       </div>
       <div>
         <h3>Services</h3>
-        <!-- RL-AUTO:footer-services START -->
-<a href="../emergency-drain-cleaning">Emergency Drain Cleaning</a><a href="../clogged-drain-unclog">Clogged Drain / Unclog</a><a href="../drain-snaking-cabling">Drain Snaking / Cabling</a><a href="../hydro-jetting">Hydro Jetting</a><a href="../kitchen-sink-drain-clog">Kitchen / Sink Drain Clog</a>
-<!-- RL-AUTO:footer-services END -->
+        <a href="../emergency-drain-cleaning">Emergency Drain Cleaning</a><a href="../clogged-drain-unclog">Clogged Drain / Unclog</a><a href="../drain-snaking-cabling">Drain Snaking / Cabling</a><a href="../hydro-jetting">Hydro Jetting</a><a href="../kitchen-sink-drain-clog">Kitchen / Sink Drain Clog</a>
       </div>
       <div>
         <h3>Company</h3>
