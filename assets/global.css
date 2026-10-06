@@ -474,7 +474,8 @@ h3 {
 }
 
 .hero-media,
-.hero-shade {
+.hero-shade,
+.hero-slide {
   position: absolute;
   inset: 0;
 }
@@ -484,13 +485,35 @@ h3 {
   transform: scale(1.015);
 }
 
+.hero-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 1s ease-in-out;
+  transform: scale(1.02);
+  pointer-events: none;
+}
+
+.hero-slide.active {
+  opacity: 1;
+  z-index: 2;
+  transform: scale(1);
+}
+
 .hero-shade {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
   background: radial-gradient(circle at center, rgba(16, 15, 11, 0.52) 0%, rgba(16, 15, 11, 0.82) 100%), linear-gradient(0deg, rgba(16, 15, 11, 0.6), transparent 55%);
 }
 
 .hero-layout {
   position: relative;
-  z-index: 2;
+  z-index: 4;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1949,6 +1972,110 @@ h3 {
   color: var(--ink);
 }
 
+.zip-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 1.5rem;
+}
+
+.zip-grid a,
+.zip-grid span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--ink);
+  font-family: "Manrope", Arial, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.zip-grid a:hover {
+  background: var(--orange-tint);
+  border-color: var(--orange);
+  color: var(--orange-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(241, 90, 27, 0.15);
+}
+
+/* ZIP Codes Section */
+.zip-codes-section {
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+}
+
+.zip-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.zip-card {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 4px 16px rgba(23, 21, 15, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.zip-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--orange);
+  box-shadow: 0 10px 25px rgba(23, 21, 15, 0.08);
+}
+
+.zip-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.zip-code-tag {
+  display: inline-block;
+  padding: 4px 12px;
+  background: var(--orange-tint);
+  border: 1px solid var(--orange);
+  border-radius: 4px;
+  color: var(--orange-dark);
+  font-family: "Manrope", Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.zip-coverage {
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  flex-grow: 1;
+}
+
+.zip-coverage strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.zip-service-line {
+  margin: 0;
+  padding-top: 12px;
+  border-top: 1px dashed var(--line);
+  color: var(--ink-soft);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
 .service-map {
   position: relative;
   min-height: 520px;
@@ -2547,6 +2674,7 @@ h3 {
   .check-list { grid-template-columns: 1fr; }
   .signature-row { grid-template-columns: 1fr auto; }
   .signature { grid-column: 1 / -1; }
+  .service-grid { grid-template-columns: 1fr; gap: 20px; }
   .service-card, .service-card-featured { min-height: auto; }
   .service-list { grid-template-columns: 1fr; }
   .service-list a, .service-list a:nth-child(2) { border-right: 0; border-bottom: 1px solid #ccc4b5; }

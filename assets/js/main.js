@@ -264,10 +264,22 @@ function initReveal() {
   });
 }
 
+function initHeroSlider() {
+  var slides = document.querySelectorAll(".hero-slide");
+  if (!slides || slides.length <= 1) return;
+  var currentIndex = 0;
+  setInterval(function () {
+    slides[currentIndex].classList.remove("active");
+    currentIndex = (currentIndex + 1) % slides.length;
+    slides[currentIndex].classList.add("active");
+  }, 3000);
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   initNavbar();
   initAccordions();
   initProcess();
   initForms();
   initReveal();
+  initHeroSlider();
 });
