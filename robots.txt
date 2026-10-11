@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://draincleaningsarasotafl.com/sitemap.xml
+Sitemap: https://drain-cleaning-sarasota-fl.vercel.app/sitemap.xml

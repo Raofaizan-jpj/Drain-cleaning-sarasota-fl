@@ -231,6 +231,11 @@
                           "destination":  "/blog/why-multiple-drains-are-backing-up",
                           "permanent":  true,
                           "source":  "/blog/why-multiple-drains-are-backing-up.html"
+                      },
+                      {
+                          "destination":  "/emergency-drain-cleaning",
+                          "permanent":  true,
+                          "source":  "/sewer-cleaning-backup"
                       }
                   ]
 }
